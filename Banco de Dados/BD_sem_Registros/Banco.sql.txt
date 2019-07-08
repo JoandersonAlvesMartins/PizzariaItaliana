@@ -1,0 +1,62 @@
+===Base de Dados pizzaria
+
+== Estrutura da tabela cargo
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**codigo**//|int(11)|Não|
+|nome|varchar(45)|Sim|NULL
+|descricao|varchar(100)|Não|
+|salariobase|float|Não|
+== Extraindo dados da tabela cargo
+
+== Estrutura da tabela comanda
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**codigo**//|int(11)|Não|
+|datacompra|datetime|Sim|NULL
+|formapagamento|varchar(45)|Sim|NULL
+|status|varchar(45)|Sim|NULL
+|codigofuncionario|int(11)|Sim|NULL
+|codigopizza|int(11)|Sim|NULL
+== Extraindo dados da tabela comanda
+
+== Estrutura da tabela funcionario
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**codigo**//|int(11)|Não|
+|nome|varchar(45)|Sim|NULL
+|cpf|varchar(45)|Não|
+|dataadmissao|datetime|Não|
+|status|varchar(45)|Não|
+|codigocargo|int(11)|Não|
+== Extraindo dados da tabela funcionario
+
+== Estrutura da tabela joandersonmartins
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**codigo**//|int(11)|Não|
+|primeironome|varchar(45)|Não|
+|ultimonome|varchar(45)|Não|
+== Extraindo dados da tabela joandersonmartins
+
+== Estrutura da tabela pizza
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**codigo**//|int(11)|Não|
+|nome|varchar(45)|Sim|NULL
+|ingredientes|varchar(100)|Não|
+|valor|float|Não|
+|status|varchar(45)|Não|
+|tipo|varchar(45)|Não|
+== Extraindo dados da tabela pizza
+
