@@ -1,2 +1,2 @@
 # PizzariaItaliana
-Projeto academico de gestão e lançamento de comandas para uma Pizzaria
+Projeto acadêmico de gestão e lançamento de comandas para uma Pizzaria em php orientado a objetos.
