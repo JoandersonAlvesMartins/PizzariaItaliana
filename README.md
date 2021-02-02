@@ -1,2 +1,2 @@
 # PizzariaItaliana
-Projeto de gestão para uma Pizzaria
+Projeto academico de gestão e lançamento de comandas para uma Pizzaria
